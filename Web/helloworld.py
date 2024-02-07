@@ -2,6 +2,7 @@ import random
 import requests
 from flask import Flask, render_template
 
-app = flask(__name__)
-app.render_template("hello")
+app = Flask(__name__)
+def protocol():
+    app.render_template("hello.html")
 
